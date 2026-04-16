@@ -364,3 +364,36 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
 }
+
+.tech-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.3s ease;
+}
+
+.tech-item:hover {
+  transform: translateY(-10px);
+}
+
+.tech-item img {
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1));
+}
+
+.tech-item p {
+  font-size: 1rem !important;
+  font-weight: 600;
+  color: var(--leaf-green);
+  margin: 0 !important;
+}
