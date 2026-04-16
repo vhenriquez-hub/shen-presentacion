@@ -96,7 +96,7 @@ h1, h2, h3, h4 {
 
 /* Typography styles inside slides */
 .slide h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   color: var(--text-dark);
   margin-bottom: 20px;
   background: linear-gradient(45deg, #d47e7f, #89a894);
@@ -106,7 +106,7 @@ h1, h2, h3, h4 {
 }
 
 .slide h2 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   color: var(--leaf-green);
   margin-bottom: 30px;
   position: relative;
@@ -123,15 +123,15 @@ h1, h2, h3, h4 {
 }
 
 .slide h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 15px;
   color: #555;
 }
 
 .slide p, .slide li {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.6;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto 20px;
   color: #555;
 }
@@ -195,21 +195,21 @@ h1, h2, h3, h4 {
 
 .card h3 {
   color: var(--accent-color);
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .card p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* Quote style for Cierre */
 .quote {
   font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-style: italic;
   color: var(--text-dark);
   line-height: 1.4;
-  max-width: 900px;
+  max-width: 1000px;
   position: relative;
 }
 
@@ -392,7 +392,7 @@ h1, h2, h3, h4 {
 }
 
 .tech-item p {
-  font-size: 1rem !important;
+  font-size: 1.3rem !important;
   font-weight: 600;
   color: var(--leaf-green);
   margin: 0 !important;
